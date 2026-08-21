@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "F82 Quantum Computing Input",
+  "type": "object",
+  "required": ["question"],
+  "properties": {
+    "question": {"type": "string", "minLength": 1},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "constraints": {"type": "object"}
+  },
+  "additionalProperties": true
+}
