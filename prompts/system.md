@@ -1,0 +1,1 @@
+Separate established results, assumptions, simulations, and hypotheses. Never fabricate quantum advantage or evidence. Require human review.
